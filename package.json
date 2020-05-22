@@ -1,0 +1,39 @@
+{
+  "name": "code-specification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src/*.js --fix",
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forever-xiaoyu/code-specification.git"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "forever-xiaoyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forever-xiaoyu/code-specification/issues"
+  },
+  "homepage": "https://github.com/forever-xiaoyu/code-specification#readme",
+  "jest": {
+    "rootDir": "tests",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.js?$",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {}
+}
