@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./src/*.js --fix",
+    "formate": "./node_modules/.bin/prettier --write ./src/*.*",
     "test": "./node_modules/.bin/jest"
   },
   "repository": {
@@ -38,6 +39,8 @@
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.2.0",
     "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "prettier": "^2.0.5"
